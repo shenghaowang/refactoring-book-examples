@@ -7,6 +7,8 @@ Download node.js and install it.
 ## Local test with terminal
 
 ```
+node chap1-refactoring-a-first-example/statementV1.js
+
 node chap1-refactoring-a-first-example/statementV2.js
 ```
 
