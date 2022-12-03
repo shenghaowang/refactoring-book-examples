@@ -1,3 +1,7 @@
+import invoice from './invoices.json' assert {type: 'json'}
+import plays from './plays.json' assert {type: 'json'}
+
+
 function statement (invoice, plays) {
   let totalAmount = 0;
   let volumeCredits = 0;
@@ -44,8 +48,8 @@ function statement (invoice, plays) {
   return result;
 }
 
-var invoice = require('./invoices.json');
-var plays = require('./plays.json')
+// var invoice = require('./invoices.json');
+// var plays = require('./plays.json')
 
-res = statement(invoice, plays);
+var res = statement(invoice, plays);
 console.log(res)
